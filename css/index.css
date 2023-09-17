@@ -6683,8 +6683,13 @@ center#name-container {
   left: 50% !important;
   transform: translateX(-50%) !important;
 }
+
 #nav .menus_items .menus_item {
   padding: 0 0 0 8px !important;
+}
+
+#nav .menus_items .menus_item:nth-child(2) {
+  padding: 0 0 0 18px !important;
 }
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
@@ -6695,7 +6700,7 @@ center#name-container {
   left: -95px;
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -103px;
+  left: -38px;
 }
 .menus_items .menus_item:nth-child(4) .menus_item_child {
   left: -102px;
