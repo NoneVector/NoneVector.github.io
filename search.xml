@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>第二篇文章</title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章">这是我的第二篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 算法 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第三篇文章</title>
       <link href="/posts/0.html"/>
       <url>/posts/0.html</url>
@@ -71,6 +46,31 @@
         <tags>
             
             <tag> 标签3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第二篇文章</title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章">这是我的第二篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
             
         </tags>
       

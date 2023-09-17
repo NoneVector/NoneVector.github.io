@@ -38,27 +38,6 @@
   </entry>
   
   <entry>
-    <title>第二篇文章</title>
-    <link href="https://www.fomal.cc/posts/0.html"/>
-    <id>https://www.fomal.cc/posts/0.html</id>
-    <published>2023-09-14T16:00:00.000Z</published>
-    <updated>2023-09-16T05:29:56.710Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="这是我的第二篇文章">这是我的第二篇文章</h2>]]></content>
-    
-    
-    <summary type="html">第二篇文章</summary>
-    
-    
-    
-    <category term="算法" scheme="https://www.fomal.cc/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-    <category term="标签2" scheme="https://www.fomal.cc/tags/%E6%A0%87%E7%AD%BE2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>第三篇文章</title>
     <link href="https://www.fomal.cc/posts/0.html"/>
     <id>https://www.fomal.cc/posts/0.html</id>
@@ -76,6 +55,27 @@
     
     
     <category term="标签3" scheme="https://www.fomal.cc/tags/%E6%A0%87%E7%AD%BE3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇文章</title>
+    <link href="https://www.fomal.cc/posts/0.html"/>
+    <id>https://www.fomal.cc/posts/0.html</id>
+    <published>2023-09-14T16:00:00.000Z</published>
+    <updated>2023-09-16T05:29:56.710Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="这是我的第二篇文章">这是我的第二篇文章</h2>]]></content>
+    
+    
+    <summary type="html">第二篇文章</summary>
+    
+    
+    
+    <category term="算法" scheme="https://www.fomal.cc/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="标签2" scheme="https://www.fomal.cc/tags/%E6%A0%87%E7%AD%BE2/"/>
     
   </entry>
   
