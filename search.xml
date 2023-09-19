@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>第四篇文章</title>
+      <link href="/posts/4.html"/>
+      <url>/posts/4.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第四篇文章">这是我的第四篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> C++ </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签4 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第三篇文章</title>
       <link href="/posts/3.html"/>
       <url>/posts/3.html</url>
@@ -71,31 +96,6 @@
         <tags>
             
             <tag> 标签2 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第四篇文章</title>
-      <link href="/posts/4.html"/>
-      <url>/posts/4.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是我的第四篇文章">这是我的第四篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> C++ </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签4 </tag>
             
         </tags>
       
