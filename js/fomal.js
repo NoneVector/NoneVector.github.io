@@ -303,7 +303,7 @@ document.addEventListener('pjax:complete', getWeibo);
 document.addEventListener('DOMContentLoaded', getWeibo);
 
 function getWeibo() {
-  fetch('').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
+  fetch('https://weibo.nonevector.top/api').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
     let html = '<style>.weibo-new{background:#ff3852}.weibo-hot{background:#ff9406}.weibo-jyzy{background:#ffc000}.weibo-recommend{background:#00b7ee}.weibo-adrecommend{background:#febd22}.weibo-friend{background:#8fc21e}.weibo-boom{background:#bd0000}.weibo-topic{background:#ff6f49}.weibo-topic-ad{background:#4dadff}.weibo-boil{background:#f86400}#weibo-container{overflow-y:auto;-ms-overflow-style:none;scrollbar-width:none}#weibo-container::-webkit-scrollbar{display:none}.weibo-list-item{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:nowrap}.weibo-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:auto}.weibo-num{float:right}.weibo-hotness{display:inline-block;padding:0 6px;transform:scale(.8) translateX(-3px);color:#fff;border-radius:8px}</style>'
     html += '<div class="weibo-list">'
     let hotness = {
@@ -3549,3 +3549,54 @@ function toggleWinbox() {
 }
 
 /* 美化模块 end */
+
+
+// 文章统计明暗模式字体颜色
+function switchPostChart () {
+  // 这里为了统一颜色选取的是“明暗模式”下的两种字体颜色，也可以自己定义
+  let color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4C4948' : 'rgba(255,255,255,0.7)'
+  if (document.getElementById('posts-chart') && postsOption) {
+    try {
+      let postsOptionNew = postsOption
+      postsOptionNew.title.textStyle.color = color
+      postsOptionNew.xAxis.nameTextStyle.color = color
+      postsOptionNew.yAxis.nameTextStyle.color = color
+      postsOptionNew.xAxis.axisLabel.color = color
+      postsOptionNew.yAxis.axisLabel.color = color
+      postsOptionNew.xAxis.axisLine.lineStyle.color = color
+      postsOptionNew.yAxis.axisLine.lineStyle.color = color
+      postsOptionNew.series[0].markLine.data[0].label.color = color
+      postsChart.setOption(postsOptionNew)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  if (document.getElementById('tags-chart') && tagsOption) {
+    try {
+      let tagsOptionNew = tagsOption
+      tagsOptionNew.title.textStyle.color = color
+      tagsOptionNew.xAxis.nameTextStyle.color = color
+      tagsOptionNew.yAxis.nameTextStyle.color = color
+      tagsOptionNew.xAxis.axisLabel.color = color
+      tagsOptionNew.yAxis.axisLabel.color = color
+      tagsOptionNew.xAxis.axisLine.lineStyle.color = color
+      tagsOptionNew.yAxis.axisLine.lineStyle.color = color
+      tagsOptionNew.series[0].markLine.data[0].label.color = color
+      tagsChart.setOption(tagsOptionNew)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  if (document.getElementById('categories-chart') && categoriesOption) {
+    try {
+      let categoriesOptionNew = categoriesOption
+      categoriesOptionNew.title.textStyle.color = color
+      categoriesOptionNew.legend.textStyle.color = color
+      if (!categoryParentFlag) { categoriesOptionNew.series[0].label.color = color }
+      categoriesChart.setOption(categoriesOptionNew)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+}
+document.getElementById("mode-button").addEventListener("click", function () { setTimeout(switchPostChart, 100) })
