@@ -6697,16 +6697,16 @@ center#name-container {
 }
 /* 这里的2是代表导航栏的第二个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
-  left: -95px;
+  left: -80px;
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
   left: -38px;
 }
 .menus_items .menus_item:nth-child(4) .menus_item_child {
-  left: -102px;
+  left: -80px;
 }
 .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -117px;
+  left: -60px;
 }
 .menus_items .menus_item:nth-child(6) .menus_item_child {
   left: -133px;
@@ -8221,8 +8221,8 @@ a:hover {
 /* 帧率检测 */
 #fps {
   position: fixed;
-  left: 10px;
-  bottom: 10px;
+  right: 10px;
+  bottom: 0px;
   z-index: 1919810;
 }
 [data-theme="light"] #fps {
