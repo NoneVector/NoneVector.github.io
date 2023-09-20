@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>第一篇文章</title>
-      <link href="/posts/1.html"/>
-      <url>/posts/1.html</url>
-      
-        <content type="html"><![CDATA[<h1>这是我的第一篇文章</h1><h2 id="这是我的第一篇文章">这是我的第一篇文章</h2><h3 id="这是我的第一篇文章-2">这是我的第一篇文章</h3><h4 id="这是我的第一篇文章-3">这是我的第一篇文章</h4><h5 id="这是我的第一篇文章-4">这是我的第一篇文章</h5><h6 id="这是我的第一篇文章-5">这是我的第一篇文章</h6>]]></content>
-      
-      
-      <categories>
-          
-          <category> Python </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 标签5 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第三篇文章</title>
       <link href="/posts/3.html"/>
       <url>/posts/3.html</url>
@@ -54,23 +29,23 @@
     
     
     <entry>
-      <title>第二篇文章</title>
-      <link href="/posts/2.html"/>
-      <url>/posts/2.html</url>
+      <title>第一篇文章</title>
+      <link href="/posts/1.html"/>
+      <url>/posts/1.html</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章">这是我的第二篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h1>这是我的第一篇文章</h1><h2 id="这是我的第一篇文章">这是我的第一篇文章</h2><h3 id="这是我的第一篇文章-2">这是我的第一篇文章</h3><h4 id="这是我的第一篇文章-3">这是我的第一篇文章</h4><h5 id="这是我的第一篇文章-4">这是我的第一篇文章</h5><h6 id="这是我的第一篇文章-5">这是我的第一篇文章</h6>]]></content>
       
       
       <categories>
           
-          <category> 算法 </category>
+          <category> Python </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 标签2 </tag>
+            <tag> 标签5 </tag>
             
         </tags>
       
@@ -96,6 +71,31 @@
         <tags>
             
             <tag> 标签4 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第二篇文章</title>
+      <link href="/posts/2.html"/>
+      <url>/posts/2.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="这是我的第二篇文章">这是我的第二篇文章</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签2 </tag>
             
         </tags>
       
